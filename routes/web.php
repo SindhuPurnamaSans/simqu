@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('kiky', function () {
     return view('kiky');
+});
+Route::get('login', function () {
+    return view('login');
 });
